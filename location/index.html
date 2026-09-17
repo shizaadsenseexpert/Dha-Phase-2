@@ -26,7 +26,16 @@
 
     <nav class="main-nav" id="main-nav">
       <a href="/#overview">Overview</a>
-      <a href="/location/" class="nav-active">Location</a>
+      <div class="nav-dropdown">
+        <button type="button" class="nav-dropdown-toggle nav-active" aria-haspopup="true" aria-expanded="false">
+          Location
+          <svg class="chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown-menu">
+          <a href="/location/" class="nav-active">Map &amp; Distance Guide</a>
+          <a href="/location/nearby/">Nearby Areas &amp; Places to Visit</a>
+        </div>
+      </div>
       <a href="/#masterplan">Master Plan</a>
       <a href="/#payment">Prices</a>
       <a href="/#apartments">Apartments</a>
@@ -265,6 +274,8 @@
         <li>Lignum Tower — high-rise landmark in Sector C</li>
         <li>APS School — Sector F and Sector C</li>
       </ul>
+
+      <a href="/location/nearby/" class="inline-cta">Explore the full Nearby Areas &amp; Places to Visit guide →</a>
     </div>
   </section>
 
@@ -325,7 +336,8 @@
       <div>
         <h4>Explore</h4>
         <a href="/#overview">Overview</a>
-        <a href="/location/">Location</a>
+        <a href="/location/">Location &amp; Map</a>
+        <a href="/location/nearby/">Nearby Areas</a>
         <a href="/#masterplan">Master Plan</a>
       </div>
       <div>

@@ -17,6 +17,35 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Nav dropdown (Location menu)
+  const dropdowns = document.querySelectorAll(".nav-dropdown");
+  dropdowns.forEach((dropdown) => {
+    const toggle = dropdown.querySelector(".nav-dropdown-toggle");
+    if (!toggle) return;
+
+    toggle.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isOpen = dropdown.classList.contains("open");
+
+      dropdowns.forEach((d) => {
+        d.classList.remove("open");
+        d.querySelector(".nav-dropdown-toggle")?.setAttribute("aria-expanded", "false");
+      });
+
+      if (!isOpen) {
+        dropdown.classList.add("open");
+        toggle.setAttribute("aria-expanded", "true");
+      }
+    });
+  });
+
+  document.addEventListener("click", () => {
+    dropdowns.forEach((d) => {
+      d.classList.remove("open");
+      d.querySelector(".nav-dropdown-toggle")?.setAttribute("aria-expanded", "false");
+    });
+  });
+
   // Facility tabs
   const tabButtons = document.querySelectorAll(".tab-btn");
   const tabPanels = document.querySelectorAll(".tab-panel");
