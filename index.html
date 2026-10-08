@@ -28,12 +28,13 @@
     <nav class="main-nav" id="main-nav">
       <a href="#overview">Overview</a>
       <div class="nav-dropdown">
-        <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
-          Location
-          <svg class="chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button>
+        <div class="nav-dropdown-head">
+          <a href="/location/" class="nav-dropdown-link">Location</a>
+          <button type="button" class="nav-dropdown-toggle" aria-label="Show more location pages" aria-haspopup="true" aria-expanded="false">
+            <svg class="chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
         <div class="nav-dropdown-menu">
-          <a href="/location/">Map &amp; Distance Guide</a>
           <a href="/location/googlemap/">Google Map</a>
           <a href="/location/nearby/">Nearby Areas &amp; Places to Visit</a>
         </div>
