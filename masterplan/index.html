@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="/css/style.css?v=3" />
+<link rel="stylesheet" href="/css/style.css?v=4" />
 </head>
 
 <div class="top-alert">
@@ -37,7 +37,25 @@
           <a href="/location/nearby/">Nearby Areas &amp; Places to Visit</a>
         </div>
       </div>
-      <a href="/masterplan/" class="nav-active">Master Plan</a>
+      <div class="nav-dropdown">
+        <div class="nav-dropdown-head">
+          <a href="/masterplan/" class="nav-dropdown-link nav-active">Master Plan</a>
+          <button type="button" class="nav-dropdown-toggle" aria-label="Show sector pages" aria-haspopup="true" aria-expanded="false">
+            <svg class="chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+        <div class="nav-dropdown-menu nav-dropdown-menu--grid">
+          <a href="/masterplan/sector-a/">Sector A</a>
+          <a href="/masterplan/sector-b/">Sector B</a>
+          <a href="/masterplan/sector-c/">Sector C</a>
+          <a href="/masterplan/sector-d/">Sector D</a>
+          <a href="/masterplan/sector-e/">Sector E</a>
+          <a href="/masterplan/sector-f/">Sector F</a>
+          <a href="/masterplan/sector-g/">Sector G</a>
+          <a href="/masterplan/sector-h/">Sector H</a>
+          <a href="/masterplan/sector-j/">Sector J</a>
+        </div>
+      </div>
       <a href="/#payment">Prices</a>
       <a href="/#apartments">Apartments</a>
       <a href="/#facilities">Facilities</a>
@@ -153,18 +171,19 @@
       <div class="section-head">
         <p class="eyebrow">Sectors at a Glance</p>
         <h2>What each sector is known for</h2>
+        <p class="section-sub">Click a sector for its full guide.</p>
       </div>
 
       <div class="sector-grid">
-        <div class="sector-card"><span class="sector-badge">A</span><p>Commercial markets, banks, high-rise living near Lignum Tower, 3 mosques</p></div>
-        <div class="sector-card"><span class="sector-badge">B</span><p>Large family park, DHA Tennis Court, eateries and sector shopping mall</p></div>
-        <div class="sector-card"><span class="sector-badge">C</span><p>Lignum Tower, schools cluster and busy commercial markets</p></div>
-        <div class="sector-card"><span class="sector-badge">D</span><p>Balanced residential and commercial with green belts, good value</p></div>
-        <div class="sector-card"><span class="sector-badge">E</span><p>Jacaranda Family Club and calm, low-density family streets</p></div>
-        <div class="sector-card"><span class="sector-badge">F</span><p>Giga Mall, GT Road commercial frontage, schools and mosques</p></div>
-        <div class="sector-card"><span class="sector-badge">G</span><p>Central Boulevard, international food brands, APS, central park</p></div>
-        <div class="sector-card"><span class="sector-badge">H</span><p>Quiet residential, guest houses, ISR Boys Hostel, affordable plots</p></div>
-        <div class="sector-card"><span class="sector-badge">J</span><p>Compact and affordable, family marts and mosques</p></div>
+        <a href="/masterplan/sector-a/" class="sector-card sector-link"><span class="sector-badge">A</span><p>Commercial markets, banks, high-rise living near Lignum Tower, 3 mosques</p></a>
+        <a href="/masterplan/sector-b/" class="sector-card sector-link"><span class="sector-badge">B</span><p>Large family park, DHA Tennis Court, eateries and sector shopping mall</p></a>
+        <a href="/masterplan/sector-c/" class="sector-card sector-link"><span class="sector-badge">C</span><p>Lignum Tower, schools cluster and busy commercial markets</p></a>
+        <a href="/masterplan/sector-d/" class="sector-card sector-link"><span class="sector-badge">D</span><p>Balanced residential and commercial with green belts, good value</p></a>
+        <a href="/masterplan/sector-e/" class="sector-card sector-link"><span class="sector-badge">E</span><p>Jacaranda Family Club and calm, low-density family streets</p></a>
+        <a href="/masterplan/sector-f/" class="sector-card sector-link"><span class="sector-badge">F</span><p>Giga Mall, GT Road commercial frontage, schools and mosques</p></a>
+        <a href="/masterplan/sector-g/" class="sector-card sector-link"><span class="sector-badge">G</span><p>Central Boulevard, international food brands, APS, central park</p></a>
+        <a href="/masterplan/sector-h/" class="sector-card sector-link"><span class="sector-badge">H</span><p>Quiet residential, guest houses, ISR Boys Hostel, affordable plots</p></a>
+        <a href="/masterplan/sector-j/" class="sector-card sector-link"><span class="sector-badge">J</span><p>Compact and affordable, family marts and mosques</p></a>
       </div>
     </div>
   </section>
@@ -312,6 +331,7 @@
           <li>Restaurants, cafés and bakeries</li>
           <li>24/7 security patrol and CCTV</li>
         </ul>
+        <a href="/masterplan/sector-a/" class="inline-cta">Read the full Sector A guide →</a>
       </article>
 
       <article class="sector-detail tab-panel" id="sector-b" data-panel="sector-b" role="tabpanel">
@@ -363,6 +383,7 @@
           <li>Daily-needs marts and pharmacies</li>
           <li>Tree-lined boulevards and footpaths</li>
         </ul>
+        <a href="/masterplan/sector-b/" class="inline-cta">Read the full Sector B guide →</a>
       </article>
 
       <article class="sector-detail tab-panel" id="sector-c" data-panel="sector-c" role="tabpanel">
@@ -416,6 +437,7 @@
           <li>Clinics, labs and pharmacies</li>
           <li>Quick access to the Islamabad Expressway</li>
         </ul>
+        <a href="/masterplan/sector-c/" class="inline-cta">Read the full Sector C guide →</a>
       </article>
 
       <article class="sector-detail tab-panel" id="sector-d" data-panel="sector-d" role="tabpanel">
@@ -469,6 +491,7 @@
           <li>Underground electricity, gas and water</li>
           <li>24/7 security patrol</li>
         </ul>
+        <a href="/masterplan/sector-d/" class="inline-cta">Read the full Sector D guide →</a>
       </article>
 
       <article class="sector-detail tab-panel" id="sector-e" data-panel="sector-e" role="tabpanel">
@@ -517,6 +540,7 @@
           <li>Mosque and sector parks</li>
           <li>Quiet, low-density streets</li>
         </ul>
+        <a href="/masterplan/sector-e/" class="inline-cta">Read the full Sector E guide →</a>
       </article>
 
       <article class="sector-detail tab-panel" id="sector-f" data-panel="sector-f" role="tabpanel">
@@ -569,6 +593,7 @@
           <li>Direct access via Gate 1 on GT Road</li>
           <li>Clinics and pharmacies</li>
         </ul>
+        <a href="/masterplan/sector-f/" class="inline-cta">Read the full Sector F guide →</a>
       </article>
 
       <article class="sector-detail tab-panel" id="sector-g" data-panel="sector-g" role="tabpanel">
@@ -621,6 +646,7 @@
           <li>Banks and ATMs</li>
           <li>Restaurants and cafés</li>
         </ul>
+        <a href="/masterplan/sector-g/" class="inline-cta">Read the full Sector G guide →</a>
       </article>
 
       <article class="sector-detail tab-panel" id="sector-h" data-panel="sector-h" role="tabpanel">
@@ -672,6 +698,7 @@
           <li>Underground utilities</li>
           <li>24/7 security patrol</li>
         </ul>
+        <a href="/masterplan/sector-h/" class="inline-cta">Read the full Sector H guide →</a>
       </article>
 
       <article class="sector-detail tab-panel" id="sector-j" data-panel="sector-j" role="tabpanel">
@@ -723,6 +750,7 @@
           <li>Footpaths and street lighting</li>
           <li>24/7 security patrol</li>
         </ul>
+        <a href="/masterplan/sector-j/" class="inline-cta">Read the full Sector J guide →</a>
       </article>
 
     </div>
@@ -891,6 +919,6 @@
 
 <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
 
-<script src="/js/script.js?v=3"></script>
+<script src="/js/script.js?v=4"></script>
 </body>
 </html>

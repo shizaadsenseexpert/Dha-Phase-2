@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="/css/style.css?v=3" />
+<link rel="stylesheet" href="/css/style.css?v=4" />
 </head>
 <body>
 
@@ -38,7 +38,25 @@
           <a href="/location/nearby/">Nearby Areas &amp; Places to Visit</a>
         </div>
       </div>
-      <a href="/masterplan/">Master Plan</a>
+      <div class="nav-dropdown">
+        <div class="nav-dropdown-head">
+          <a href="/masterplan/" class="nav-dropdown-link">Master Plan</a>
+          <button type="button" class="nav-dropdown-toggle" aria-label="Show sector pages" aria-haspopup="true" aria-expanded="false">
+            <svg class="chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+        <div class="nav-dropdown-menu nav-dropdown-menu--grid">
+          <a href="/masterplan/sector-a/">Sector A</a>
+          <a href="/masterplan/sector-b/">Sector B</a>
+          <a href="/masterplan/sector-c/">Sector C</a>
+          <a href="/masterplan/sector-d/">Sector D</a>
+          <a href="/masterplan/sector-e/">Sector E</a>
+          <a href="/masterplan/sector-f/">Sector F</a>
+          <a href="/masterplan/sector-g/">Sector G</a>
+          <a href="/masterplan/sector-h/">Sector H</a>
+          <a href="/masterplan/sector-j/">Sector J</a>
+        </div>
+      </div>
       <a href="/#payment">Prices</a>
       <a href="/#apartments">Apartments</a>
       <a href="/#facilities">Facilities</a>
@@ -365,6 +383,6 @@
 
 <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
 
-<script src="/js/script.js?v=3"></script>
+<script src="/js/script.js?v=4"></script>
 </body>
 </html>
