@@ -761,3 +761,4 @@ a.chip:hover { border-color: var(--gold); color: var(--navy); }
   .sector-detail { padding: 1.4rem; }
 }
 main > section[id] { scroll-margin-top: 72px; }
+#sector-tabs { scroll-margin-top: 90px; }

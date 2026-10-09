@@ -67,6 +67,22 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  // Open a sector tab from links like #sector-c (Master Plan page)
+  const openTabFromHash = (hash, scroll) => {
+    const btn = hash && document.querySelector(`.tab-btn[data-tab="${hash.slice(1)}"]`);
+    if (!btn) return false;
+    btn.click();
+    if (scroll) document.getElementById("sector-tabs")?.scrollIntoView({ behavior: "smooth" });
+    return true;
+  };
+
+  document.querySelectorAll('a[href^="#"]').forEach((link) => {
+    link.addEventListener("click", (e) => {
+      if (openTabFromHash(link.getAttribute("href"), true)) e.preventDefault();
+    });
+  });
+  openTabFromHash(window.location.hash, true);
+
   // Back to top button
   const backToTop = document.getElementById("back-to-top");
   if (backToTop) {
