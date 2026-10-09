@@ -729,3 +729,35 @@ tbody td:first-child { font-weight: 600; color: var(--navy); }
   .footer-links { grid-template-columns: 1fr; gap: 1.8rem; }
   .cta-inner { flex-direction: column; align-items: flex-start; }
 }
+
+/* Master Plan page */
+a.chip { text-decoration: none; transition: border-color 0.2s, color 0.2s; }
+a.chip:hover { border-color: var(--gold); color: var(--navy); }
+
+.sector-detail {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 2rem;
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+  scroll-margin-top: 90px;
+}
+.section-alt .sector-detail { background: var(--cream); }
+.sector-detail-head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.sector-detail-head .sector-badge { margin-bottom: 0; width: 46px; height: 46px; font-size: 1.15rem; flex-shrink: 0; }
+.sector-detail-head h3 { font-size: 1.35rem; margin: 0; }
+.sector-detail-head div span { display: block; font-size: 0.85rem; color: var(--ink-soft); }
+.sector-detail > p { margin-bottom: 1.4rem; }
+.sector-detail h4 { font-size: 1rem; margin: 1.4rem 0 0.8rem; color: var(--navy); }
+.sector-detail .two-col { margin-top: 0.5rem; }
+
+@media (max-width: 720px) {
+  .sector-detail { padding: 1.4rem; }
+}
+main > section[id] { scroll-margin-top: 72px; }
