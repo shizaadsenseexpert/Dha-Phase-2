@@ -787,3 +787,11 @@ a.sector-link:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg);
 .sector-detail .inline-cta { margin-top: 1.5rem; }
 @media (max-width: 720px) {
 }
+.price-cards { row-gap: 1.5rem; }
+.sector-detail .card td:not(:first-child) { white-space: nowrap; }
+@media (max-width: 960px) {
+  .price-cards { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 720px) {
+  .sector-detail .card { padding: 1.1rem; }
+}
