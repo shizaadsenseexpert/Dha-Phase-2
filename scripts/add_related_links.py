@@ -12,7 +12,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PAGES = {
     "/": ("🏠", "DHA Phase 2 Overview", "Location, prices, facilities and master plan in one place"),
     "/masterplan/": ("🗺️", "Master Plan", "All sectors with plot sizes, high-rises and rates"),
-    "/prices/": ("💰", "Prices 2025", "Sector-wise plot rates and apartment prices"),
+    "/prices/": ("💰", "Prices 2026", "Sector-wise plot rates and apartment prices"),
     "/apartments/": ("🏢", "Apartments", "High-rise buildings in every sector"),
     "/facilities/": ("🏫", "Facilities", "Schools, hospitals, parks, mosques and security"),
     "/location/": ("📍", "Location &amp; Distance Guide", "Gates, routes and travel times"),

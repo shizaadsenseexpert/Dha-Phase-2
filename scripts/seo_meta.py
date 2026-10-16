@@ -18,14 +18,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 META = {
     "/": (
         "DHA Phase 2 Islamabad: Prices, Map, Master Plan & Guide",
-        "Complete guide to DHA Phase 2 Islamabad: location and gates, master plan, sector-wise 2025 plot prices, apartments, facilities and nearby areas.",
+        "Complete guide to DHA Phase 2 Islamabad: location and gates, master plan, sector-wise 2026 plot prices, apartments, facilities and nearby areas.",
     ),
     "/masterplan/": (
         "DHA Phase 2 Islamabad Master Plan: Sectors A to J",
-        "DHA Phase 2 Islamabad master plan explained sector by sector: Sectors A to J, plot sizes, high-rise apartments, 2025 rates and facilities in each.",
+        "DHA Phase 2 Islamabad master plan explained sector by sector: Sectors A to J, plot sizes, high-rise apartments, 2026 rates and facilities in each.",
     ),
     "/prices/": (
-        "DHA Phase 2 Islamabad Prices 2025: Plot & Apartment Rates",
+        "DHA Phase 2 Islamabad Prices 2026: Plot & Apartment Rates",
         "Latest DHA Phase 2 Islamabad prices: sector-wise rates for 5 Marla, 10 Marla and 1 Kanal plots, commercial plots and high-rise apartments.",
     ),
     "/apartments/": (
@@ -50,39 +50,39 @@ META = {
     ),
     "/masterplan/sector-a/": (
         "DHA Phase 2 Sector A Islamabad: Plots, Prices & Facilities",
-        "DHA Phase 2 Sector A Islamabad: commercial market, banks, apartments near Lignum Tower, plot sizes, 2025 prices, facilities, pros and cons.",
+        "DHA Phase 2 Sector A Islamabad: commercial market, banks, apartments near Lignum Tower, plot sizes, 2026 prices, facilities, pros and cons.",
     ),
     "/masterplan/sector-b/": (
         "DHA Phase 2 Sector B Islamabad: Plots, Prices & Facilities",
-        "DHA Phase 2 Sector B Islamabad: family park, DHA Tennis Court, shopping mall and eateries, plot sizes, 2025 prices, facilities, pros and cons.",
+        "DHA Phase 2 Sector B Islamabad: family park, DHA Tennis Court, shopping mall and eateries, plot sizes, 2026 prices, facilities, pros and cons.",
     ),
     "/masterplan/sector-c/": (
         "DHA Phase 2 Sector C Islamabad: Plots, Prices & Facilities",
-        "DHA Phase 2 Sector C Islamabad: Lignum Tower apartments, APS and schools, commercial markets, plot sizes, 2025 prices, pros and cons.",
+        "DHA Phase 2 Sector C Islamabad: Lignum Tower apartments, APS and schools, commercial markets, plot sizes, 2026 prices, pros and cons.",
     ),
     "/masterplan/sector-d/": (
         "DHA Phase 2 Sector D Islamabad: Plots, Prices & Facilities",
-        "DHA Phase 2 Sector D Islamabad: residential and commercial sector with green belts, 5 Marla to 1 Kanal plots, 2025 prices and facilities.",
+        "DHA Phase 2 Sector D Islamabad: residential and commercial sector with green belts, 5 Marla to 1 Kanal plots, 2026 prices and facilities.",
     ),
     "/masterplan/sector-e/": (
         "DHA Phase 2 Sector E Islamabad: Plots, Prices & Facilities",
-        "DHA Phase 2 Sector E Islamabad: Jacaranda Family Club, low-density family homes, plot sizes, 2025 prices, facilities, pros and cons.",
+        "DHA Phase 2 Sector E Islamabad: Jacaranda Family Club, low-density family homes, plot sizes, 2026 prices, facilities, pros and cons.",
     ),
     "/masterplan/sector-f/": (
         "DHA Phase 2 Sector F Islamabad: Plots, Prices & Facilities",
-        "DHA Phase 2 Sector F Islamabad: Giga Mall, Gate 1, GT Road commercial plots, schools, plot sizes, 2025 prices, high-rises and facilities.",
+        "DHA Phase 2 Sector F Islamabad: Giga Mall, Gate 1, GT Road commercial plots, schools, plot sizes, 2026 prices, high-rises and facilities.",
     ),
     "/masterplan/sector-g/": (
         "DHA Phase 2 Sector G Islamabad: Plots, Prices & Facilities",
-        "DHA Phase 2 Sector G Islamabad: Central Boulevard, Central Park, APS, Central Palace Residence apartments, plot sizes and 2025 prices.",
+        "DHA Phase 2 Sector G Islamabad: Central Boulevard, Central Park, APS, Central Palace Residence apartments, plot sizes and 2026 prices.",
     ),
     "/masterplan/sector-h/": (
         "DHA Phase 2 Sector H Islamabad: Plots, Prices & Facilities",
-        "DHA Phase 2 Sector H Islamabad: quiet residential sector with guest houses, affordable 5 Marla to 1 Kanal plots, 2025 prices and facilities.",
+        "DHA Phase 2 Sector H Islamabad: quiet residential sector with guest houses, affordable 5 Marla to 1 Kanal plots, 2026 prices and facilities.",
     ),
     "/masterplan/sector-j/": (
         "DHA Phase 2 Sector J Islamabad: Plots, Prices & Facilities",
-        "DHA Phase 2 Sector J Islamabad: compact residential sector with family marts and mosques, affordable plots, 2025 prices, pros and cons.",
+        "DHA Phase 2 Sector J Islamabad: compact residential sector with family marts and mosques, affordable plots, 2026 prices, pros and cons.",
     ),
 }
 
